@@ -1,0 +1,17 @@
+echo "# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test files
+*.test
+
+# Go build cache
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp" > .gitignore
